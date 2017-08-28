@@ -9,6 +9,12 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div>
+    	<%= render 'common/navigation' %>
+    </div>
+    <div class="container">
+    	<%= yield %>
+    </div>
+    
   </body>
 </html>
