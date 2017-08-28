@@ -13,3 +13,29 @@
  */
 
 @import "bootstrap";
+
+nav {
+	font-family: 'Raleway', sans-serif;
+}
+
+nav a.navbar-brand {
+	font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-transform: uppercase; 
+}
+
+nav div ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #fff;
+	display: block;
+	margin: 10px;
+}
+
+nav div ul li a:hover {
+    text-decoration: none;
+	color: #ffff00;
+}
+
