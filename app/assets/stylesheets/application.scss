@@ -49,7 +49,7 @@ nav div ul li a:hover {
 
 /* ########## pages ########## */
 div.well {
-	margin: 1.5em;
+	margin: 25px 0 40px 0;
 }
 
 div.box-shadow {
@@ -58,10 +58,66 @@ div.box-shadow {
 }
 
 h3 {
-	padding: 10px;
-	float: left;
+	padding: 20px 20px 0 20px;
+	float: right;
 	border-bottom: 1.5px solid black;
 }
 
-/* ########## mobile ########## */
+h4 {
+	padding-top: 10px;
+}
 
+.col-6 {
+    max-width: 100%;
+}
+
+ul.inner-container {
+	list-style: none;
+	margin: auto;
+}
+
+.col-left {
+	display: block;
+	margin-left: 0;
+    padding: 10px 20px 10px 30px;
+}
+
+.col-right {
+	display: inline-block;
+	margin: 0;
+    max-width: 100%;
+    height: auto;
+	padding: 20px;
+    float: right top;
+}
+
+.col-right p {
+	color: #666;
+	padding-right: 20px;
+}
+
+
+/* ########## mobile ########## */
+@media screen and (max-width: 992px) {
+
+	.col-left {
+	display: table;
+	margin: 5% 10%;
+    padding: 10px 20px 10px 30px;
+    }
+    .col-left li p {
+    	display: block;
+    	padding-right: 25%;
+    }
+    .col-right {
+	display: block;
+	margin: auto;
+    max-width: 100%;
+    height: auto;
+	padding: 5%;
+    }
+    .col-right p {
+    	display: block;
+    	padding-right: 5%;
+    }
+}
