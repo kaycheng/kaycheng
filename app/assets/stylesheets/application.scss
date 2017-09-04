@@ -18,6 +18,9 @@
 /* ########## navbar default ########## */
 nav {
 	line-height: 1.8em;
+	position: fixed;
+	top: 0px;
+    left: 0px;
 }
 
 .navbar-brand {
@@ -50,6 +53,7 @@ nav div ul li a:hover {
 /* ########## pages ########## */
 div.well {
 	margin: 25px 0 40px 0;
+	max-width: 100%;
 }
 
 div.box-shadow {
@@ -121,8 +125,8 @@ footer {
 
 
 /* ########## mobile ########## */
-@media screen and (max-width: 992px) {
-
+@media screen and (max-width: 765px) {
+    
 	.col-left {
 	    display: table;
 	    margin: 5% 10%;
